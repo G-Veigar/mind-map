@@ -1,0 +1,29 @@
+{
+  "name": "mind-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "name": "node script/name-update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Veigar/mind-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G-Veigar/mind-map/issues"
+  },
+  "homepage": "https://github.com/G-Veigar/mind-map#readme",
+  "devDependencies": {
+    "husky": "^3.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run name"
+    }
+  }
+}
