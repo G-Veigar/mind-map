@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "name": "node script/name-update.js"
+    "name": "node scripts/name-update.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,5 @@
   "homepage": "https://github.com/G-Veigar/mind-map#readme",
   "devDependencies": {
     "husky": "^3.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run name"
-    }
   }
 }
